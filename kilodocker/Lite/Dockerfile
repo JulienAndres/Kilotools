@@ -44,4 +44,8 @@ RUN git clone https://github.com/mickael9/kilobots-toolchain
 WORKDIR /root/kilobots-toolchain
 RUN make install
 
+#kilotools
+WORKDIR /root
+RUN git clone https://github.com/JulienAndres/Kilotools.git
+
 WORKDIR /root/work
