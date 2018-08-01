@@ -59,4 +59,8 @@ RUN make install
 WORKDIR /root
 RUN git clone https://github.com/JulienAndres/Kilotools.git
 
+#work during internship
+WORKDIR /root
+RUN git clone https://github.com/JulienAndres/Stage_Kilobots
+
 WORKDIR /root/work
